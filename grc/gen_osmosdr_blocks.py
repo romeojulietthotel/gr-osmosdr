@@ -23,7 +23,7 @@ MAIN_TMPL = """\
 <block>
   <name>$(title) $sourk.title()</name>
   <key>$(prefix)_$(sourk)</key>
-  <category>$($sourk.title())s</category>
+  <category>[$($sourk.title())s]</category>
   <throttle>1</throttle>
   <import>import osmosdr</import>
   <import>import time</import>
